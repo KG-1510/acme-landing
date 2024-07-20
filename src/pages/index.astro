@@ -1,13 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Hero, Features, LogoCloud, Stats } from '../components/home';
+import { Hero, AboutComponent, FeaturesComponent, SubscribeComponent, LogoCloud, Stats, PricingComponent } from '../components/home';
 
 import '../styles.css';
 ---
 
 <Layout title="Acme Note. | Take a Note.">
   <Hero />
-  <Features />
+  <AboutComponent />
+  <FeaturesComponent />
+  <PricingComponent />
   <Stats />
   <LogoCloud />
+  <SubscribeComponent />
 </Layout>

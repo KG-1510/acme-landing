@@ -1,6 +1,6 @@
 const LogoCloud = () => {
   return (
-    <div className="py-24 sm:py-32">
+    <div className="py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h3 className="text-center text-base font-semibold leading-7 text-secondary">Trusted by many</h3>
         <h2 className="text-center text-3xl mt-2 sm:text-4xl font-semibold leading-8 text-white">
@@ -46,7 +46,7 @@ const LogoCloud = () => {
         </div>
         <p className="text-white font-semibold text-center mt-14 md:mt-20">
           Want to join this list? Let's{' '}
-          <a className="text-primary hover:underline" href="/">
+          <a className="text-primary hover:underline" href="/signup">
             Get Started
           </a>
         </p>
