@@ -1,4 +1,3 @@
-// TODO: fix icon unknown type
 export interface INavbarLinks {
     title: string;
     url: string;
@@ -7,7 +6,7 @@ export interface INavbarLinks {
 export interface IFeaturesContent {
     name: string;
     description: string;
-    icon: unknown;
+    icon: JSX.ElementType;
 }
 
 export interface IStatsContent {
