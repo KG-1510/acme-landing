@@ -29,10 +29,10 @@ const Footer = () => {
           );
         })}
       </div>
-      <p className="mt-8 text-base leading-6 text-center text-gray-400">
+      <p className="mt-8 text-base leading-6 text-center">
         © 2024 Acme, Inc. All rights reserved.
       </p>
-      <p className="mt-8 text-base leading-6 text-center text-gray-400">
+      <p className="mt-8 text-base leading-6 text-center">
         Developed with ❤️ by{' '}
         <a
           className="text-primary hover:underline"

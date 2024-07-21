@@ -1,9 +1,11 @@
 import type {
+  IBlogContent,
   IFeaturesContent,
   INavbarLinks,
   IPricingContent,
   ISocialLinks,
   IStatsContent,
+  ITeamContent,
 } from './interfaces';
 import {
   HiLockClosed,
@@ -193,5 +195,83 @@ export const socialLinks: ISocialLinks[] = [
   {
     url: 'https://github.dev/KG-1510',
     icon: FaGithub,
+  },
+];
+
+export const blogContent: IBlogContent[] = [
+  {
+    id: 1,
+    title: 'Boost Your Productivity with Gen AI',
+    href: '/signup',
+    description:
+      'Learn how with the autofill feature of ChatGPT 4o you can be faster in making notes',
+    date: 'Mar 16, 2024',
+    datetime: '2024-03-16',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Michael Foster',
+      role: 'Co-Founder / CTO',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    id: 2,
+    title: 'Enhance Your SEO Strategy',
+    href: '/signup',
+    description:
+      'Use the power of Search Enginer Optimization techniques to create content that generates more traction and better revenue for the organization',
+    date: 'Apr 5, 2024',
+    datetime: '2024-04-05',
+    category: { title: 'SEO', href: '#' },
+    author: {
+      name: 'Jane Smith',
+      role: 'SEO Specialist',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+  {
+    id: 3,
+    title: 'Mastering Social Media Marketing',
+    href: '#',
+    description:
+      'With the ever growing demand of better marketing, Social Media is the perfect place as a starter to write good content and generate organic users',
+    date: 'May 10, 2024',
+    datetime: '2024-05-10',
+    category: { title: 'Social Media', href: '#' },
+    author: {
+      name: 'John Doe',
+      role: 'Social Media Manager',
+      href: '#',
+      imageUrl:
+        'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    },
+  },
+];
+
+export const teamContent: ITeamContent[] = [
+  {
+    name: 'Leslie Alexander',
+    role: 'Co-Founder / CEO',
+    imageUrl: 'https://randomuser.me/api/portraits/women/68.jpg',
+  },
+  {
+    name: 'Kushagra Gupta',
+    role: 'Frontend Web Developer',
+    imageUrl:
+      'https://media.licdn.com/dms/image/D4D03AQEn8vf1JyLTyQ/profile-displayphoto-shrink_400_400/0/1702993015869?e=1726704000&v=beta&t=ylPzsWdB6nKSHcgASObKkYkz_YyqQvKcrLovErJUl9Y',
+  },
+  {
+    name: 'Jane Doe',
+    role: 'Designer',
+    imageUrl: 'https://randomuser.me/api/portraits/men/85.jpg',
+  },
+  {
+    name: 'Mary Jane',
+    role: 'QA',
+    imageUrl: 'https://randomuser.me/api/portraits/women/65.jpg',
   },
 ];

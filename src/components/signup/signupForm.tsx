@@ -7,7 +7,7 @@ const SignupForm = () => {
             Create a new account
           </h2>
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form action="#" method="POST">
+            <form action="mailto:guptakushagra15.10@gmail.com" method="POST" encType="text/plain">
               <div className="mt-4">
                 <label htmlFor="email" className="block text-sm font-medium leading-6">
                   Email address
@@ -26,10 +26,7 @@ const SignupForm = () => {
 
               <div className="mt-4">
                 <div className="flex items-center justify-between">
-                  <label
-                    htmlFor="password"
-                    className="block text-sm font-medium leading-6 text-gray-900"
-                  >
+                  <label htmlFor="password" className="block text-sm font-medium leading-6">
                     Password
                   </label>
                   <div className="text-sm">

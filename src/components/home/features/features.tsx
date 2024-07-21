@@ -2,7 +2,7 @@ import { featuresContent } from '../../../utils/content';
 
 const Features = () => {
   return (
-    <div className="py-20 sm:py-32">
+    <div className="py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h3 className="text-base font-semibold leading-7 text-secondary">Write better notes</h3>
@@ -32,7 +32,7 @@ const Features = () => {
         </div>
         <p className="text-white font-semibold text-center mt-20">
           Convinced enough? Let's{' '}
-          <a className="text-primary hover:underline" href="/">
+          <a className="text-primary hover:underline" href="/signup">
             Get Started
           </a>
         </p>
