@@ -1,5 +1,5 @@
 import { HiMiniXMark } from 'react-icons/hi2';
-import { GrArticle } from "react-icons/gr";
+import { GrArticle } from 'react-icons/gr';
 
 const SubscribeComponent = () => {
   return (

@@ -23,15 +23,18 @@ const Footer = () => {
       <div className="flex justify-center mt-8 space-x-6">
         {socialLinks.map((linkItem) => {
           return (
-            <a aria-label={linkItem.title} href={linkItem.url} target="_blank" className="text-white hover:opacity-80">
+            <a
+              aria-label={linkItem.title}
+              href={linkItem.url}
+              target="_blank"
+              className="text-white hover:opacity-80"
+            >
               <linkItem.icon size={30} />
             </a>
           );
         })}
       </div>
-      <p className="mt-8 text-base leading-6 text-center">
-        © 2024 Acme, Inc. All rights reserved.
-      </p>
+      <p className="mt-8 text-base leading-6 text-center">© 2024 Acme, Inc. All rights reserved.</p>
       <p className="mt-8 text-base leading-6 text-center">
         Developed with ❤️ by{' '}
         <a
