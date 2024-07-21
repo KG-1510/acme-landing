@@ -57,13 +57,14 @@ PageSpeed Insights is a tool by Google that provided lab benchmarked results in 
 
 - **Consistent color pallette** - Only used the colors mentioned in `tailwind.config.js` to maintain consistent UI.
 - **Preconnect to Google Fonts** - Preconnecting to google fonts hosts makes loading of fonts slightly faster, improving page performance.
-- **Compress hero banner video** - Used `.webm` format of video and compressed it to maximize page performance. Refernce from [Volvo Trucks US Website](https://www.volvotrucks.us/)
+- **Compress hero banner video** - Used `.webm` format of video and compressed it to maximize page performance. *Reference from [Volvo Trucks US Website](https://www.volvotrucks.us/)*
 - **WAVE Accessibility tool** - Achieved 100 score for accessibility using Lighthouse and WAVE Accessibility tool.
 - **Appropriate metatags** - Better SEO with metatags generated from [metatags.io](https://metatags.io/)
 - **Semantic HTML** - Proper use of `h1` `h2` `h3` `p` `section` etc. tags, every `a` tag is linked to a page, **No dead clicks!**
 - **Dynamic meta title and description** - For every page, a unique title and description is added as a parameter through Astro layout.
-- **Using next gen image formats** - Use of `.webp` images, along with `loading="lazy` and `fetchPriority="low"` (for images which are not present in first fold of website).
+- **Using next gen image formats** - Use of `.webp` images, along with `loading="lazy"` and `fetchPriority="low"` (for images which are not present in first fold of website).
 - **Use of `client:load` and `client:visible` directive** - Harnessing the power of Astro to load navbar immediately, and load other components only when they are visible.
+- **Use of `poster` attribute and preloaded it** - HTML5 feature of adding an image before your video loads to improve LCP. Added the image with a gaussian blur so that user feels the video is "fading in". Preloaded the image so that it loads asap.
 
 ## 🧞 Commands
 
