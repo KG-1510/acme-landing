@@ -62,7 +62,7 @@ PageSpeed Insights is a tool by Google that provided lab benchmarked results in 
 - **Appropriate metatags** - Better SEO with metatags generated from [metatags.io](https://metatags.io/)
 - **Semantic HTML** - Proper use of `h1` `h2` `h3` `p` `section` etc. tags, every `a` tag is linked to a page, **No dead clicks!**
 - **Dynamic meta title and description** - For every page, a unique title and description is added as a parameter through Astro layout.
-- **Using next gen image formats** - Use of `.webp` images, along with `loading="lazy` and `fetchPriority="low"` (for images which are not present in first fold of website.
+- **Using next gen image formats** - Use of `.webp` images, along with `loading="lazy` and `fetchPriority="low"` (for images which are not present in first fold of website).
 - **Use of `client:load` and `client:visible` directive** - Harnessing the power of Astro to load navbar immediately, and load other components only when they are visible.
 
 ## 🧞 Commands
