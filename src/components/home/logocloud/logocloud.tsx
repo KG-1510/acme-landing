@@ -58,7 +58,7 @@ const LogoCloud = () => {
         </div>
         <p className="text-white font-semibold text-center mt-14 md:mt-20">
           Want to join this list? Let's{' '}
-          <a className="text-primary hover:underline" href="/signup">
+          <a className="text-primary underline hover:text-white" href="/signup">
             Get Started
           </a>
         </p>

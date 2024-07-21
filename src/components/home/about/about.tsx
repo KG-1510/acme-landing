@@ -49,7 +49,7 @@ const AboutComponent = () => {
         </div>
         <p className="font-semibold text-center mt-20">
           Want to see it in action? Let's{' '}
-          <a className="text-primary hover:underline" href="/signup">
+          <a className="text-primary underline hover:text-white" href="/signup">
             Get Started
           </a>
         </p>

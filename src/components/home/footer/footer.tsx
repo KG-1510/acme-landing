@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="flex justify-center mt-8 space-x-6">
         {socialLinks.map((linkItem) => {
           return (
-            <a href={linkItem.url} target="_blank" className="text-white hover:opacity-80">
+            <a aria-label={linkItem.title} href={linkItem.url} target="_blank" className="text-white hover:opacity-80">
               <linkItem.icon size={30} />
             </a>
           );
@@ -35,7 +35,7 @@ const Footer = () => {
       <p className="mt-8 text-base leading-6 text-center">
         Developed with ❤️ by{' '}
         <a
-          className="text-primary hover:underline"
+          className="text-primary underline hover:text-white"
           href="https://www.linkedin.com/in/kg1510/"
           target="_blank"
         >

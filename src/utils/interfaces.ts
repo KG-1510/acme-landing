@@ -33,6 +33,7 @@ export interface IPricingContent {
 export interface ISocialLinks {
   url: string;
   icon: JSX.ElementType;
+  title: string;
 }
 
 export interface IBlogContent {

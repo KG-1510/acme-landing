@@ -179,22 +179,27 @@ export const socialLinks: ISocialLinks[] = [
   {
     url: 'https://www.facebook.com/atlanhq/',
     icon: FaFacebook,
+    title: 'Facebook',
   },
   {
     url: 'https://www.instagram.com/',
     icon: FaInstagram,
+    title: 'Instagram',
   },
   {
     url: 'https://www.linkedin.com/company/atlan-hq/',
     icon: FaLinkedin,
+    title: 'Linkedin',
   },
   {
     url: 'https://x.com/AtlanHQ',
     icon: FaXTwitter,
+    title: 'Twitter X',
   },
   {
     url: 'https://github.dev/KG-1510',
     icon: FaGithub,
+    title: 'Github',
   },
 ];
 

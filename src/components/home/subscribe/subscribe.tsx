@@ -42,22 +42,22 @@ const SubscribeComponent = () => {
             </div>
             <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
               <div className="flex flex-col items-start">
-                <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                <span className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                   <GrArticle aria-hidden="true" className="h-6 w-6 text-white" />
-                </div>
-                <dt className="mt-4 font-semibold text-white">Monthly articles</dt>
-                <dd className="mt-2 leading-7 text-gray-400">
+                </span>
+                <p className="mt-4 font-semibold text-white">Monthly articles</p>
+                <p className="mt-2 leading-7 text-gray-400">
                   Stay updated with new things tech from Acme
-                </dd>
+                </p>
               </div>
               <div className="flex flex-col items-start">
-                <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                <span className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                   <HiMiniXMark aria-hidden="true" className="h-6 w-6 text-white" />
-                </div>
-                <dt className="mt-4 font-semibold text-white">No spam</dt>
-                <dd className="mt-2 leading-7 text-gray-400">
+                </span>
+                <p className="mt-4 font-semibold text-white">No spam</p>
+                <p className="mt-2 leading-7 text-gray-400">
                   No clutter in your mailbox, we promise!
-                </dd>
+                </p>
               </div>
             </dl>
           </div>

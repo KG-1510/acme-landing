@@ -19,20 +19,20 @@ const Features = () => {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {featuresContent.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-white">
+                <div className="text-base font-semibold leading-7 text-white">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-white border-primary border-2">
                     <feature.icon aria-hidden="true" className="h-6 w-6 text-black" />
                   </div>
                   {feature.name}
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-secondary">{feature.description}</dd>
+                </div>
+                <p className="mt-2 text-base leading-7 text-secondary">{feature.description}</p>
               </div>
             ))}
           </dl>
         </div>
         <p className="text-white font-semibold text-center mt-20">
           Convinced enough? Let's{' '}
-          <a className="text-primary hover:underline" href="/signup">
+          <a className="text-primary underline hover:text-white" href="/signup">
             Get Started
           </a>
         </p>
