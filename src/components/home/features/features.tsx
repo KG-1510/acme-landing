@@ -16,7 +16,7 @@ const Features = () => {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+          <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {featuresContent.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <div className="text-base font-semibold leading-7 text-white">
@@ -28,7 +28,7 @@ const Features = () => {
                 <p className="mt-2 text-base leading-7 text-secondary">{feature.description}</p>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
         <p className="text-white font-semibold text-center mt-20">
           Convinced enough? Let's{' '}

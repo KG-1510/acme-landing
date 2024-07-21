@@ -40,7 +40,7 @@ const SubscribeComponent = () => {
                 </button>
               </div>
             </div>
-            <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
               <div className="flex flex-col items-start">
                 <span className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                   <GrArticle aria-hidden="true" className="h-6 w-6 text-white" />
@@ -59,7 +59,7 @@ const SubscribeComponent = () => {
                   No clutter in your mailbox, we promise!
                 </p>
               </div>
-            </dl>
+            </div>
           </div>
         </div>
         <div
